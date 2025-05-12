@@ -9,9 +9,9 @@
 :root {
     --bg-color: #3E5D54;
     --second-bg-color: #86A69D;
-    --text-color: white;
+    --text-color: #F2E8DF;
     --main-color: #F2B263;
-    --imgshadow-color: #914F4F;
+    --imgshadow-color: #F2B263;
     
 }
 html {
@@ -43,18 +43,18 @@ body {
     display: none;
 }
 .logo {
-    width: 80px;
+    width: 100px;
     color: var(--text-color);
     font-weight: 800;
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 .logo:hover {
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 span{
     background: linear-gradient(
-        270deg, #F28585 10%, #F2B263 100%
+        270deg, #976E3B 80%, #F6D0A0 100%
     );
     background-clip: text;
     color: transparent;
@@ -76,12 +76,12 @@ span{
     padding: 1rem 2rem;
     border-radius: 3rem;
     background: linear-gradient(
-        270deg, #F2B263 30%, #F28585 100%
+        270deg, #976E3B 80%, #F6D0A0 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    color: white;
+    color: #F2E8DF;
     border: none;
     text-wrap: nowrap;
 }
@@ -151,7 +151,7 @@ section{
     transition: 0.3s ease-in-out;
 }
 .social-icons a:hover{
-    color: white;
+    color: #F2E8DF;
     background-color: var(--main-color);
     transform: scale(1.2)translateY(-10px);
     box-shadow: 0 0 25px var(--main-color);
@@ -228,7 +228,7 @@ section{
 .skills-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    align-items: ;
+    align-items: center;
     gap: 2rem;
     justify-items: stretch;
 }
@@ -318,7 +318,7 @@ section{
     margin-left: 20px;
 }
 .footer ul li a{
-    color: white;
+    color: #F2E8DF;
     border-bottom: 3px solid transparent;
     transition: 0.3s ease-in-out;
 }
